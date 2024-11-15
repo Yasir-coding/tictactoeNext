@@ -14,8 +14,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+import Test from "@/app/logik";
 
 export default function Home() {
+  console.log("jkfsndf");
+
   return (
     <>
       <Head>
@@ -32,6 +35,7 @@ export default function Home() {
         </main>
      
       </div>
+      <Test />
     </>
   );
 }
